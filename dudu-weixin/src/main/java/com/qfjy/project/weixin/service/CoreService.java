@@ -1,6 +1,5 @@
 package com.qfjy.project.weixin.service;
 
-import java.io.Writer;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -8,25 +7,11 @@ import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.qfjy.project.weixin.main.MenuManager;
-import com.qfjy.project.weixin.pojo.AccessToken;
 import com.qfjy.project.weixin.util.MessageUtil;
-import com.qfjy.project.weixin.util.WeixinUtil;
-
-import com.thoughtworks.xstream.XStream;
-import com.thoughtworks.xstream.core.util.QuickWriter;
-import com.thoughtworks.xstream.io.HierarchicalStreamWriter;
-import com.thoughtworks.xstream.io.xml.PrettyPrintWriter;
-import com.thoughtworks.xstream.io.xml.XppDriver;
-
-import net.sf.json.JSONObject;
-
 
 import com.qfjy.project.weixin.bean.resp.Article;
-import com.qfjy.project.weixin.bean.resp.MusicMessage;
 import com.qfjy.project.weixin.bean.resp.NewsMessage;
 import com.qfjy.project.weixin.bean.resp.TextMessage;
 
@@ -36,7 +21,6 @@ public class CoreService {
 
 	/**
 	 * 处理微信发来的请求
-	 * 
 	 * @param request
 	 * @return
 	 */

@@ -9,20 +9,12 @@
 
 package com.qfjy.project.weixin.dao;
 
-import java.io.BufferedInputStream;
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.Properties;
 
-/**
- * @author guoweixin
- * @Description 与数据库交互的基础类
- * @created 2013-9-11 下午8:16:13
- * @History 
- * @version v1.0
- */
+
 
 public class BaseDao {
 	private static Connection connection;
@@ -35,10 +27,7 @@ public class BaseDao {
 		Properties properties = new Properties();
 		InputStream inStream;
 		try {
-//非WEB 程序			
-			/* inStream = new BufferedInputStream(new
-					 FileInputStream("D:\\workplace\\goods\\khzy\\src\\jdbc.properties"));
-				 properties.load(inStream);*/
+
 
 			inStream = Thread.currentThread().getContextClassLoader()
 					.getResourceAsStream("/jdbc.properties");
@@ -115,7 +104,6 @@ public class BaseDao {
 	
 	/**
 	 * 增删改
-	 * 
 	 * @param1:sql语句
 	 * @param2:Object数组
 	 * @return int
@@ -146,7 +134,6 @@ public class BaseDao {
 	
 	/**
 	 * 关闭连接
-	 * 
 	 * @param con
 	 * @param pst
 	 * @param rst

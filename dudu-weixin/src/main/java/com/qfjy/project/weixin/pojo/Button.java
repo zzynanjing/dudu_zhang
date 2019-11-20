@@ -1,19 +1,15 @@
 package com.qfjy.project.weixin.pojo;
 
+import lombok.Data;
+
 /**
  * 按钮的基类
- * 
  */
+
+@Data
 public class Button {
+
 	private String name;
 
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-
-	}
 	
 }

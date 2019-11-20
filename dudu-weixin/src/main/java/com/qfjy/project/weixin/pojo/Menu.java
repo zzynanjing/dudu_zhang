@@ -1,16 +1,14 @@
 package com.qfjy.project.weixin.pojo;
 
+import lombok.Data;
+
 /**
  * 菜单
  */
+
+@Data
 public class Menu {
+
 	private Button[] button;
 
-	public Button[] getButton() {
-		return button;
-	}
-
-	public void setButton(Button[] button) {
-		this.button = button;
-	}
 }

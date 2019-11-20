@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.qfjy.AppTest" time="0.041" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="E:\work\1903pro\dudu\dudu-common\target\test-classes;E:\work\1903pro\dudu\dudu-common\target\classes;E:\maven\junit\junit\4.11\junit-4.11.jar;E:\maven\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;E:\maven\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="E:\Java\jdk1.8.0_144\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\vsus\AppData\Local\Temp\surefire8106449839005306463\surefirebooter1979371473694292915.jar C:\Users\vsus\AppData\Local\Temp\surefire8106449839005306463 2019-11-20T20-15-04_029-jvmRun1 surefire2393219461873009800tmp surefire_07326664669504044948tmp"/>
+    <property name="surefire.test.class.path" value="E:\work\1903pro\dudu\dudu-common\target\test-classes;E:\work\1903pro\dudu\dudu-common\target\classes;E:\maven\junit\junit\4.11\junit-4.11.jar;E:\maven\org\hamcrest\hamcrest-core\2.1\hamcrest-core-2.1.jar;E:\maven\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\vsus"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="E:\Java\jdk1.8.0_144\jre"/>
+    <property name="basedir" value="E:\work\1903pro\dudu\dudu-common"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="idea.version2019.2.3" value="true"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\vsus\AppData\Local\Temp\surefire8106449839005306463\surefirebooter1979371473694292915.jar"/>
+    <property name="sun.boot.class.path" value="E:\Java\jdk1.8.0_144\jre\lib\resources.jar;E:\Java\jdk1.8.0_144\jre\lib\rt.jar;E:\Java\jdk1.8.0_144\jre\lib\sunrsasign.jar;E:\Java\jdk1.8.0_144\jre\lib\jsse.jar;E:\Java\jdk1.8.0_144\jre\lib\jce.jar;E:\Java\jdk1.8.0_144\jre\lib\charsets.jar;E:\Java\jdk1.8.0_144\jre\lib\jfr.jar;E:\Java\jdk1.8.0_144\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_144-b01"/>
+    <property name="user.name" value="vsus"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="E:\Java\jdk1.8.0_144\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="E:\maven"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\vsus\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_144"/>
+    <property name="user.dir" value="E:\work\1903pro\dudu\dudu-common"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="E:\Java\jdk1.8.0_144\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\Java\jdk1.8.0_144\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;E:\Java\apache-maven-3.5.0\bin;E:\nj\two\MariaDB 5.5\bin;C:\Users\vsus\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.144-b01"/>
+    <property name="java.ext.dirs" value="E:\Java\jdk1.8.0_144\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.qfjy.AppTest" time="0.001"/>
+</testsuite>

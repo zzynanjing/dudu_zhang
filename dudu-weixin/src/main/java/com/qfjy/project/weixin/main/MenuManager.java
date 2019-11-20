@@ -17,17 +17,16 @@ import com.qfjy.project.weixin.util.WeixinUtil;
  */
 public class MenuManager {
 	private static Logger log = LoggerFactory.getLogger(MenuManager.class);
-/***
+
+/**
  * 自定义菜单的创建步骤
 	1、找到AppId和AppSecret。自定义菜单申请成功后，在“高级功能”-“开发模式”-“接口配置信息”的最后两项就是；
 	2、根据AppId和AppSecret，以https get方式获取访问特殊接口所必须的凭证access_token；
 	3、根据access_token，将json格式的菜单数据通过https post方式提交。
-
  */
 	
 	public final static String REAL_URL="http://weixinguo.xicp.net/maven_weixin/"; //个人花生壳
-	//public final static String REAL_URL = "http://wxmobsa.yidatec.com/weixin/"; //正式号服务器	
-	
+
 	public final static String appId="wxe545a87dd58d472c";
 	public final static String appSecret = "8e7b1ee0710dbe4ba9fbcd93dc2321cf";
 	
@@ -81,7 +80,6 @@ public class MenuManager {
 		btn10.setUrl("");
 		
 		
-//-------------------------------------------------------
 		CommonButton btn20 = new CommonButton();
 		btn20.setName("事件菜单");
 		btn20.setType("click");
@@ -92,7 +90,6 @@ public class MenuManager {
 		btn21.setType("view");
 		btn21.setUrl("https://www.baidu.com/");
 
-//------------------------------------------------------------		
 		CommonButton btn31 = new CommonButton(); //返回图文消息
 		btn31.setName("");
 		btn31.setType("click");
